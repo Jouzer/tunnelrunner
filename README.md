@@ -8,11 +8,15 @@ If you wanted to compile this, the one I used originally was Borland C++ 3.1 in 
 ![kuva](https://github.com/user-attachments/assets/d72c8efe-8bae-4130-bf30-42610b55eeb8)
 
 This game is an ASCII dungeon crawler. The rooms are RNG generated, slightly bigger each time. Reaching level 10 is the goal. You must reach the end of the level until your "turn count" reaches 0. Should it reach 0, it will activate sudden death mode where you can still try to reach the end.
-There are 
-$${\color{orange}%}$$ bombs you can create holes in the walls with, 
-$${\color{white}&}$$ skeleton soldiers who will drastically lower your "round count" on contact, but they will vanish after a few rounds should you escape them
-$${\color{blue}~}$$ map items to show you the layout of the level for a second and 
-$${\color{yellow}$}$$ treasure for extrapoints
+
+Map glossary
+'@' you,
+'%' bombs you can create holes in the walls with,
+'&' skeleton soldiers who will drastically lower your "round count" on contact, but they will vanish after a few rounds should you escape them
+'~' single use map items to show you the layout of the level  and 
+'$' treasure for extrapoints
+'_' stairs for next level
+
 
 Controls W, A, S, D, 
 big-Q for exiting,
